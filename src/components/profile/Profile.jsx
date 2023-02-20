@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'; // ES6
 
-import css from 'components/profile/Profile.module.css';
+import css from 'components/Profile/Profile.module.css';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
