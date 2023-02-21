@@ -5,6 +5,7 @@ import { Profile } from 'components/Profile/Profile';
 import user from '../user';
 // import data from '../data';
 // import friends from '../friends';
+console.log(123);
 
 export const App = () => {
   return (
