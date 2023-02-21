@@ -1,9 +1,9 @@
-import { Profile } from './Profile1/Profile';
-// import { FriendList } from './FriendList/FliendList';
-// import { Statistics } from './Statistics/Statistics';
+import { Profile } from './Profile';
+import { FriendList } from './FriendList/FliendList';
+import { Statistics } from './Statistics/Statistics';
 import user from '../user';
-// import data from '../data';
-// import friends from '../friends';
+import data from '../data';
+import friends from '../friends';
 
 export const App = () => {
   return (
@@ -24,8 +24,8 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      {/* <Statistics stats={data} title="Upload stats" />
-      <FriendList friends={friends} /> */}
+      <Statistics stats={data} title="Upload stats" />
+      <FriendList friends={friends} />
     </div>
   );
 };
