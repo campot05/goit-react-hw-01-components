@@ -1,5 +1,4 @@
 import { Profile } from './Profile/Profile';
-// import { Statistics } from 'components/Statistics';
 // import { FriendList } from './FriendList/FliendList';
 // import { Statistics } from './Statistics/Statistics';
 import user from '../user';
