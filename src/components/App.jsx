@@ -1,10 +1,10 @@
 import { Profile } from './Profile/Profile';
 // import { Statistics } from 'components/Statistics';
-import { FriendList } from './FriendList/FliendList';
-import { Statistics } from './Statistics/Statistics';
+// import { FriendList } from './FriendList/FliendList';
+// import { Statistics } from './Statistics/Statistics';
 import user from '../user';
-import data from '../data';
-import friends from '../friends';
+// import data from '../data';
+// import friends from '../friends';
 
 export const App = () => {
   return (
@@ -25,8 +25,8 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics stats={data} title="Upload stats" />
-      <FriendList friends={friends} />
+      {/* <Statistics stats={data} title="Upload stats" />
+      <FriendList friends={friends} /> */}
     </div>
   );
 };
