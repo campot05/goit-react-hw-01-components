@@ -1,10 +1,9 @@
-import { Profile } from './Profile/Profile';
+import { Profile } from './Profile1/Profile';
 // import { FriendList } from './FriendList/FliendList';
 // import { Statistics } from './Statistics/Statistics';
 import user from '../user';
 // import data from '../data';
 // import friends from '../friends';
-console.log(123);
 
 export const App = () => {
   return (
